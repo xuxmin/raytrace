@@ -122,6 +122,7 @@ setup(
     url='https://github.com/ashawkey/raytracing',
     author='kiui',
     author_email='ashawkey1999@gmail.com',
+    packages=['raytracing'],
     ext_modules=[
         CUDAExtension(
             name='_raytracing', # extension name, import this to use CUDA API

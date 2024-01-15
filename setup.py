@@ -134,6 +134,7 @@ setup(
             include_dirs=[
                 os.path.join(_src_path, 'include'),
                 find_eigen(),
+                os.path.join(_src_path, 'eigen-3.3.7'),
             ],
             extra_compile_args={
                 'cxx': c_flags,
